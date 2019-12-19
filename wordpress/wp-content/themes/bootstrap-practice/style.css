@@ -3,3 +3,30 @@ Theme Name: Bootstrap 4 Practice
 Author: CRamirez
 Version: 1.0
 */
+.jumbotron {
+	background: linear-gradient(0.25turn, #5a191f, black);
+	color: white;
+	height: 75vh;
+	margin: 0;
+}
+.jumbotron h1 {
+	margin: 5vw;
+}
+.height-hack .col-3{
+	min-height: 20vh;
+	height: auto !important;
+	height: 50vh;
+}
+.height-hack {
+	margin-top: 5vh;
+}
+.img-center {
+	display: block;
+	margin: 5vh auto;
+}
+.white-text {
+	color: white;
+}
+.spacing-10 {
+	padding: 10vh 0;
+}

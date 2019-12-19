@@ -11,5 +11,19 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 ​
     <?php wp_head(); ?>
-    <h5>I am the header</h5>
+
 </head>
+<body>
+	<div class="container-fluid p-0">
+		<nav class="navbar nav main-nav justify-content-between navbar-dark bg-dark fixed-top">
+			<a href="#" class="navbar-brand">Project</a>
+		</nav>
+		<header>
+			<div class="jumbotron">
+				<h1>Welcome! This is the header. The big h1.</h1>
+			</div>
+		</header>
+		<nav class="secondary-nav container-fluid navbar nav navbar-dark bg-dark justify-content-end">
+			<a class="nav-link" href="#">Link 1</a>
+		</nav>
+	</div>
