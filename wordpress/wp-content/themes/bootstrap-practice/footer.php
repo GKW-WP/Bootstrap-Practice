@@ -1,7 +1,10 @@
+		<div class="row bg-dark map-row">
+			<div class="map"></div>
+		</div>
 		<footer>
-			<h5>
-				I am a footer
-			</h5>
+			<div class="row">
+				I am footer
+			</div>
 		</footer>
 		<?php wp_footer();?>
 	</body>
